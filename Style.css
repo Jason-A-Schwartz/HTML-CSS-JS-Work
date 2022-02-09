@@ -1,0 +1,789 @@
+/*This determines the style for the information in the Header div: The font is set to sans-serif, the color is set to black, the background color is set to lightgray, padding is added, a border is added, border color is set to indianred, border width is set to thick, text is centered.*/
+#Header{
+    
+        font-family: sans-serif;
+    
+        color: black;
+    
+        background-color: lightgray;
+    
+        padding: 2%;
+    
+        border-style: solid;
+    
+        border-color: indianred;
+    
+        border-width: thick;
+    
+        text-align: center;
+}
+
+/*This determines the style of the HomeButton div: Text is centered, color is set to black, content is set to float left, the font size is set to 12px, a border is added, the background color is set to lightblue, padding is added, font is set to bold, text styles are removed*/
+#HomeButton{
+    
+        text-align: center;
+    
+        color: black;
+    
+        float: left;
+    
+        font-size: 12px;
+    
+        border-style: solid;
+    
+        background-color: lightblue;
+        padding: 2px;
+    
+        font-weight: bold;
+    
+        text-decoration: none;
+    
+}
+
+/*Makes the content float to the right*/
+#PageTwoButton{
+    
+        text-align: center;
+    
+        color: black;
+    
+        float: right;
+    
+        font-size: 12px;
+    
+        border-style: solid;
+    
+        background-color: lightblue;
+        padding: 2px;
+    
+        font-weight: bold;
+    
+        text-decoration: none;
+
+}
+
+
+/*Makes the content float to the left*/
+#FloatLeft{
+    
+        float: left; 
+}
+
+/*This determines the stlye of the information in the Body div: Background is set to an external image, background image is set to repeat, background image is set to size 337px, padding is added*/
+Body{
+    
+        background-image: url(Pattern.jpg);
+    
+        background-repeat: repeat;
+    
+        background-size: 337px;
+    
+        padding: .5%;
+    
+}
+
+/*This determines the style of the information in the Container div: Background color is set to black, padding is added, margin is set to auto, width is set to 75%, border is added, border color is set to indianred, border width is set to thick*/
+#Container{
+    
+        position: sticky;
+
+        background-color: black;
+    
+        padding: 1%;
+    
+        margin: auto;
+    
+        width:1300px;
+    
+        border-style: solid;
+    
+        border-color: indianred;
+    
+        border-width: thick;
+    
+}
+
+/*This determines the style of the information in the SidebarContainer div: Background color is set to paleturquoise, text is centered, width is set to 30%, height is set to 99.5%, content is set to float left, border is added, border color is set to black*/
+#SidebarContainer{
+    
+        background-color: paleturquoise;
+    
+        text-align: center;
+    
+        width: 30%;
+    
+        height: 995px;
+    
+        float: left;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+}
+
+/*This determines the style of the information in the MainInfoContainer div: Width is set to 69%, height is set to 92.9%, content is set to float left, border is added, border color is set to black*/
+#MainInfoContainer{
+    
+        width: 69%;
+    
+        height: 92.9%;
+    
+        float: left;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+}
+
+/*This determines the style of the information in the MainTitle div: Font is set to sans-serif, background color is set to lightskyblue, text is centered, width is set to 99.5%, height is set to 12.9%, border is added, border color is set to black, title is aligned vertically */
+#MainTitle{
+    
+        font-family: sans-serif;
+    
+        background-color: lightskyblue;
+    
+        text-align: center;
+    
+        width: 99.5%;
+    
+        height: 12.9%;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+    
+}
+
+/*This determines the style of the information in the MainInfo div: Font is set to sans-serif, background color is set to ghostwhite, width is set to 96%, height is set to 90%, border is added, border color is set to black, padding is added*/
+#MainInfo{
+    
+        font-family: sans-serif;
+    
+        background-color: ghostwhite;
+    
+        width: 96%;
+    
+        height: 90%;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        padding: 15px;
+    
+}
+
+/*This determines the style of the information in the MainIntro div: Font is set to sans-serif, indents the text, adds spacing to the text*/
+#MainIntro{
+    
+        font-family: sans-serif;
+
+        text-indent: 40px;
+    
+        line-height: 200%;
+
+}
+
+/*This determines the stlye of the information in the MainOutro div: Font is set to sans-serif, text is indented, spacing is added to the text*/
+#MainOutro{
+    
+        font-family: sans-serif;
+
+        text-indent: 40px;
+    
+        line-height: 200%;
+
+}
+
+/*This determines the style of the information in the Main div: Background is set to black, height is set to 1000px, border is added, border color is set to indianred, spacing is added to the text*/
+#Main{
+    
+        background-color: black;
+    
+        height: 1000px;
+    
+        border-style: solid;
+    
+        border-color: indianred;
+    
+        line-height: 200%;  
+    
+}
+
+/*This determines the style of the information in the SideBarTitle div: Font is set to sans-serif, background color is set to lightskyblue, text is centered, width is set to 100%, height 12%, border is added, border color is set to black, title is aligned vertically*/
+#SidebarTitle{
+    
+        font-family: sans-serif;
+    
+        background-color: lightskyblue;
+    
+        text-align: center;
+    
+        width: 100%;
+    
+        height: 12%;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+   
+}
+
+/*This determines the style of the information in the SidebarLink1 div: Font is set to sans-serif, font size is set to 90%, font is set to bold, background color is set to lightblue, text is centered, width is set to 100%, height is set to 14%, border is added, border color is set to black, link is aligned vertically*/
+#SidebarLink1{
+    
+        font-family: sans-serif;
+    
+        font-size: 90%;
+    
+        font-weight: bold;
+    
+        background-color: lightblue;
+    
+        text-align: center;
+    
+        width: 100%;
+    
+        height:138px;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+   
+}
+
+/*This determines the information of the information in the SidebarLink2 div: Font is set to sans-serif, font size is set to 90%, font is set to bold, background color is set to lightblue, text is centered, width is set to 100%, height is set to 14%, border is added, border color is set to black, link is aligned vertically*/
+#SidebarLink2{
+    
+        font-family: sans-serif;
+    
+        font-size: 90%;
+    
+        font-weight: bold;
+    
+        background-color: lightblue;
+    
+        text-align: center;
+    
+        width: 100%;
+    
+        height: 138px;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+   
+}
+
+/*This determines the style of the information in the SidebarLink3 div: Font is set to sans-serif, font size is set to 90%, font is set to bold, background color is set to lightblue, text is centered, width is set to 100%, height is set to 14%, border is added, border color is set to black, link is aligned vertically*/
+#SidebarLink3{
+    
+        font-family: sans-serif;
+    
+        font-size: 90%;
+    
+        font-weight: bold;
+    
+        background-color: lightblue;
+    
+        text-align: center;
+    
+        width: 100%;
+    
+        height: 138px;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+   
+}
+
+/*This determines the style of the information in the SidebarLink4 div: Font is set to sans-serif, font size is set to 90%, font is set to bold, background color is set to lightblue, text is centered, width is set to 100%, height is set to 14%, border is added, border color is set to black, link is aligned vertically*/
+#SidebarLink4{
+        
+        font-family: sans-serif;
+    
+        font-size: 90%;
+    
+        font-weight: bold;
+    
+        background-color: lightblue;
+    
+        text-align: center;
+    
+        width: 100%;
+    
+        height: 138px;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+   
+}
+
+/*This determines the style of the information in the SidebarLink5 div: Font is set to sans-serif, font size is set to 90%, font is set to bold, background color is set to lightblue, text is centered, width is set to 100%, height is set to 14%, border is added, border color is set to black, link is aligned vertically*/
+#SidebarLink5{
+    
+        font-family: sans-serif;
+    
+        font-size: 90%;
+    
+        font-weight: bold;
+    
+        background-color: lightblue;
+    
+        text-align: center;
+
+        width: 100%;
+    
+        height: 138px;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+   
+}
+
+/*This determines the style of the information in the SidebarLink6 div: Font is set to sans-serif, font size is set to 90%, font is set to bold, background color is set to lightblue, text is centered, width is set to 100%, height is set to 14%, border is added, border color is set to black, link is aligned vertically*/
+#SidebarLink6{
+    
+        font-family: sans-serif;
+    
+        font-size: 90%;
+    
+        font-weight: bold;
+    
+        background-color: lightblue;
+    
+        text-align: center;
+    
+        width: 100%;
+    
+        height: 146px;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+   
+}
+
+/*This determines the style of the information in the table headers: Border is added, border size is set to 2px, border color is set to black, color of text is set to white, background color is set to indianred, width is set to 150px, text is centered*/
+#table, th{
+    
+        border: 2px solid black;
+        
+        color: white;
+    
+        background-color: indianred;
+    
+        text-align: center;
+    
+}
+
+/*This determines the style of the information in the table rows: Border is added, border size is set to 2px, border color is set to black, background color is set to antiquewhite, width is set to 200px, text is centered*/
+#table, td{
+    
+        border: 2px solid black;
+    
+        background-color: antiquewhite;
+    
+        text-align: center;
+    
+}
+
+/*This determines the style of the information in the detailed lists: Text is shifted to the left, text is indented*/
+#dl, dl{
+    
+        margin-right: 240px;
+    
+        text-indent: 40px;
+    
+}
+
+/*This determines the style of the information in the ordered lists: Line spacing is increased*/
+#ol, li{
+    
+    line-height: 260%;
+}
+
+/*This determines the style of the information in the TableChoice div: Border is added, border size is set to 2px, border color is set to black, background color is set to lightgray, text is centered*/
+#TableChoice{
+        
+        border: 2px solid black;
+    
+        background-color: lightgray;
+    
+        text-align: center;
+    
+}
+
+/*This determines the style of the information in the CenterMe div: Text is centered*/
+#CenterMe{
+    
+        text-align: center;
+}
+
+/*This determines the style of the information in the CenterMeTwo div: Text is centered*/
+#CenterMeTwo{
+    
+        text-align: center;
+}
+
+/*This determines the style of the information in the MakeSmall div: Font size is set to 8px*/
+#MakeSmall{
+    
+    font-size: 8px;
+}
+
+/*This determines the style of the information in the MakeSmallTwo div: Font size is set to Twox*/
+#MakeSmallTwo{
+    
+    font-size: 15px;
+}
+
+
+/*This determines the style of the information in the BoxMe div: Border is added, border color is set to black, background color is set to antiquewhite*/
+#BoxMe{
+    
+    border-style: solid;
+    
+    border-color: black;
+    
+    background-color: antiquewhite;
+
+}
+
+/*This determines the style of the information in the BoxMe div: Border is added, border color is set to black, background color is set to indianred, font color is set to white, text is aligned vertically*/
+#BoxMeTwo{
+    
+    border-style: solid;
+    
+    border-color: black;
+    
+    background-color: indianred;
+    
+    color: white;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+
+/*This determines the style of the information in the ImageOne div: Border is added, border color is set to black, padding is added, image is moved up, image is moved left, image is set to float right*/
+#ImageOne{
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        padding: 10px;
+    
+        margin-top: -91px;
+    
+        margin-right: 101px;
+    
+        float: right;
+
+}
+
+/*This determines the style of the information in the ImageTwo div: Border is added, border color is set to black, padding is added, image is moved up, image is moved left, image is set to float right*/
+#ImageTwo{
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        padding: 10px;
+    
+        margin-top: -100px;
+    
+        margin-right: 101px;
+    
+        float: right;
+
+}
+
+/*This determines the style of the information in the ImageThree div: Border is added, border color is set to black, padding is added, image is moved up, image is moved left, image is set to float right*/
+#ImageThree{
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        padding: 10px;
+    
+        margin-top: -110px;
+    
+        margin-right: 101px;
+    
+        float: right;
+
+}
+
+/*This determines the style of the information in the ImageFour div: Border is added, border color is set to black, padding is added, image is moved up, image is moved left, image is set to float right*/
+#ImageFour{
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        padding: 10px;
+    
+        margin-top: -118px;
+    
+        margin-right: 101px;
+    
+        float: right;
+
+}
+
+/*This determines the style of the information in the ImageFive div: Border is added, border color is set to black, padding is added, image is moved up, image is moved left, image is set to float right*/
+#ImageFive{
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        padding: 10px;
+    
+        margin-top: -145px;
+    
+        margin-right: 101px;
+    
+        float: right;
+
+}
+
+/*This determines the style of the information in the Auhtor1 div: Height is set to 47px, text is set to the right, font size is set to 10.5px, margin is centered*/
+#Author1{
+    
+    height: 47px;
+    
+    text-align: right;
+    
+    font-size: 10.5px;
+    
+    margin-top: -25px;
+    
+    margin-left: -40px;
+    
+    margin-bottom: -33px;
+    
+    margin-right: -8px;
+    
+}
+
+/*This determines the style of the information in the Auhtor1 div: Text is set to the right, font size is set to 9.5px, margin is centered*/
+#Author2{
+    
+    text-align: right;
+    
+    font-size: 9.3px;
+    
+    margin-top: -22px;
+    
+    margin-left: -40px;
+    
+    margin-bottom: -30px;
+    
+    margin-right: -8px;
+    
+}
+
+/*This determines the style of the information in the Auhtor1 div: Text is set to the right, font size is set to 9.7px, margin is centered*/
+#Author3{
+    
+    text-align: right;
+    
+    font-size: 9.7px;
+    
+    margin-top: -21px;
+    
+    margin-left: -40px;
+    
+    margin-bottom: -29px;
+    
+    margin-right: -8px;
+    
+}
+
+/*This determines the style of the information in the Auhtor1 div: Text is set to the right, font size is set to 10px, margin is centered*/
+#Author4{
+    
+    text-align: right;
+    
+    font-size: 10px;
+    
+    margin-top: -26px;
+    
+    margin-left: -40px;
+    
+    margin-bottom: -27px;
+    
+    margin-right: -8px;
+    
+}
+
+/*This determines the style of the information in the Auhtor1 div: Text is set to the right, font size is set to 10px, margin is centered*/
+#Author5{
+    
+    text-align: right;
+    
+    font-size: 10px;
+    
+    margin-top: -26px;
+    
+    margin-left: -40px;
+    
+    margin-bottom: -29px;
+    
+    margin-right: -8px;
+    
+}
+
+/*This determines the style of the information in the ImageTitle div: Padding is added, title is moved up, title is moved left, title is set to float right, text is set to bold*/
+#ImageTitle{
+    
+        padding: 10px;
+    
+        margin-top: -30px;
+    
+        margin-right: 70px;
+    
+        float: right;
+    
+        font-weight: bold;
+    
+}
+
+/*This determines the style of the information in the Footer div: Font size is set to 80%, font is bolded, text is centered, background color is set to lightgray, border is added, border color is set to black, border width is set to thick*/
+#Footer{
+
+        font-size: 80%;
+    
+        font-weight: bold;
+    
+        text-align: center;
+    
+        background-color: lightgray;
+    
+        border-style: solid;
+    
+        border-color: black;
+    
+        border-width: thick;
+    
+}
+
+/*This determines the style of the Gif*/
+#Gif{
+    
+        width: 100px;
+    
+        height: 100px;
+    
+        background: url(img_navsprites.gif) 0 0;
+    
+}
+
+/*This determines the style of the NavBar*/
+#NavBar{
+    
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin-top:-10px;
+        left: 55%;
+        margin-left: -10px;
+}
+/*This determines the style of the Calendar*/
+#Calendar{
+    
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin-top: 28px;
+        left: 55%;
+        margin-left: -10px;
+}
+
+/* Makes it so if you haven't visited a link it is mediumblue*/
+a:link{
+    
+        color: #3366BB;
+    
+}
+
+/* Makes it so if you visit a link it turns mediumpurple*/
+a:visited{
+    
+        color: #0B0080;
+    
+}
+
+/* Makes it so if you hover over a link it turns red*/
+a:hover{
+    
+        color: red;
+    
+}
+
+/* Makes it so if you are clicking a link it turns whitesmoke*/
+a:active{
+    
+        color: whitesmoke;
+    
+}
